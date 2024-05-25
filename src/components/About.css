@@ -1,0 +1,106 @@
+.about-container{
+    background-color: #f8f4f0;
+    padding-bottom: 100px;
+}
+
+.head{
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.homeImage{
+    width: 600px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+.image-details{
+    display: flex;
+    padding: 50px;
+}
+
+.details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-container > div{
+    padding: 35px;
+}
+
+.details-heading{
+    color: #1e3a2b;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.details{
+    font-size: 25px;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-container > div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 330px;
+    border: 2px solid rgba(0, 0, 0, 0.605);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.about-left, .about-right{
+    width: 180px;
+    height: 180px;
+    padding: 30px
+}
+
+.bottom-container > div > div > div > img{
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-container > div > div > div{
+    text-align: center;
+}
+
+
+.bottom-container > div > div > div > span{
+    color: rgb(84, 91, 219);
+}
+
+.about-button{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    position: relative;
+    top : 90px
+}
+
+.initiative{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about-line {
+    padding: 0;
+    height: 350px;
+    width: 1px; /* Adjust width as needed */
+    background-color: #000; /* Adjust color as needed */
+    margin-left: 50px;
+    margin-right: 10px;
+}

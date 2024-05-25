@@ -1,0 +1,44 @@
+.career-container{
+    height: 600px;
+    width: 100vw;
+    background-image: url('../assets/career.png');
+    background-size: cover; /* Ensure the whole image is visible */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+
+    text-align: center;
+}
+
+.career-heading{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.career-details{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.career-details > div{
+    width: 50%;
+}
+
+.career-button{
+    display: flex;
+    justify-content: center;
+}
+
+.career-button > div{
+    padding: 10px
+}
+
+.career-button > div > div{
+    height: 43px;
+    width: 92px;
+}

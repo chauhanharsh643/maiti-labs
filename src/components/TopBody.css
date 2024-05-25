@@ -1,0 +1,36 @@
+.first{
+    font-size: 85px;
+    text-align: center;
+    color: #1e3a2b;
+}
+
+.second{
+    font-size: 33px;
+    text-align: center;
+    color: #1e3a2b;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third > div{
+    width: 200px;
+    margin: 40px;
+    height: 40px;
+}
+
+.forth{
+    margin-top: 200px;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.forth >div> span{
+    background-color: #1e3a2b;
+    color: #f1f5f9;
+}

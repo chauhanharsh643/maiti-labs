@@ -1,0 +1,108 @@
+.contact-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 49px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.form-group textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+.form-group button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.first-input{
+    display: flex;
+    width: 520px;
+    justify-content:space-between;
+}
+
+.first-input > div{
+    /* padding: 30px; */
+}
+
+
+
+.contact-bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-bottom-container, .contact-left, .contact-right{
+    padding: 20px;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.connect-apps{
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+.connect-apps > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.line {
+    padding: 0;
+    height: 350px;
+    width: 2px; /* Adjust width as needed */
+    background-color: #000; /* Adjust color as needed */
+    margin-left: 50px;
+    margin-right: 10px;
+}
